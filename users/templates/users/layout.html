@@ -7,6 +7,8 @@
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <title>Arham Institue  </title>
     {% include "users/head_lib.html" %}
+    {% block extra_head_lib %}
+    {% endblock %}
 </head>
 
 <body class="theme-red">
@@ -780,6 +782,8 @@
     </section>
 
     {% include "users/body_lib.html" %}
+    {% block extra_body_lib %}
+    {% endblock %}
 </body>
 
 </html>
